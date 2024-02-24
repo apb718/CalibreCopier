@@ -38,11 +38,11 @@ int main() {
 
     std::cout << "Enter source directory path: ";
     // std::cin >> sourceDirPath;
-    sourceDirPath= "C:\Users\apb71\OneDrive\Desktop\recursive"
+    sourceDirPath= "/home/alecbyrd/temp";
 
     std::cout << "Enter destination directory path: ";
     // std::cin >> destinationDirPath;
-    desinationDirPath= "C:\Users\apb71\OneDrive\Desktop\destination"
+    destinationDirPath= "/home/alecbyrd/out";
 
     fs::path sourceDir(sourceDirPath);
     fs::path destinationDir(destinationDirPath);
